@@ -1,0 +1,232 @@
+05-Mar-2024 15:08:15.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+05-Mar-2024 15:08:15.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+05-Mar-2024 15:08:15.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+05-Mar-2024 15:08:15.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Mar-2024 15:08:15.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thinh\.jdks\corretto-17.0.10
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:08:15.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:08:15.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Mar-2024 15:08:15.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Mar-2024 15:08:15.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Mar-2024 15:08:15.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Mar-2024 15:08:15.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\dev\java\spring_boot\practice_class\ems\ems\temp
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\dev\java\spring_boot\practice_class\ems\ems\conf\logging.properties
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=51408:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin
+05-Mar-2024 15:08:15.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Mar-2024 15:08:16.004 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\thinh\.jdks\corretto-17.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Users\thinh\AppData\Local\Microsoft\WindowsApps;C:\Users\thinh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thinh\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\thinh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.6\bin;;.]
+05-Mar-2024 15:08:16.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:08:16.337 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [575] milliseconds
+05-Mar-2024 15:08:16.391 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 15:08:16.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+05-Mar-2024 15:08:16.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml]
+05-Mar-2024 15:08:17.601 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2024 15:08:17.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml] has finished in [1,292] ms
+05-Mar-2024 15:08:17.702 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:08:17.747 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1410] milliseconds
+05-Mar-2024 15:12:41.131 INFO [http-nio-8080-exec-7] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.1.7.Final
+05-Mar-2024 15:12:42.033 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+05-Mar-2024 15:12:42.059 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.microsoft.sqlserver.jdbc.SQLServerDriver
+05-Mar-2024 15:12:42.059 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:sqlserver://localhost:1433;database=jsp_01;encrypt=true;trustServerCertificate=true]
+05-Mar-2024 15:12:42.059 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=sa}
+05-Mar-2024 15:12:42.059 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Mar-2024 15:12:42.064 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+05-Mar-2024 15:12:42.341 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+05-Mar-2024 15:12:42.920 INFO [http-nio-8080-exec-7] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.0.Final
+05-Mar-2024 15:12:44.088 INFO [http-nio-8080-exec-7] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63a5248d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+05-Mar-2024 15:17:58.732 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:17:58.740 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 15:17:58.746 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ems] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Mar-2024 15:17:58.747 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ems] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:840)
+05-Mar-2024 15:17:58.753 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:17:58.773 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:18:02.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+05-Mar-2024 15:18:02.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+05-Mar-2024 15:18:02.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thinh\.jdks\corretto-17.0.10
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+05-Mar-2024 15:18:02.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Mar-2024 15:18:02.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:18:02.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:18:02.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\dev\java\spring_boot\practice_class\ems\ems\temp
+05-Mar-2024 15:18:02.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\dev\java\spring_boot\practice_class\ems\ems\conf\logging.properties
+05-Mar-2024 15:18:02.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 15:18:02.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=51748:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin
+05-Mar-2024 15:18:02.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Mar-2024 15:18:02.699 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\thinh\.jdks\corretto-17.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Users\thinh\AppData\Local\Microsoft\WindowsApps;C:\Users\thinh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thinh\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\thinh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.6\bin;;.]
+05-Mar-2024 15:18:02.897 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:18:02.920 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [401] milliseconds
+05-Mar-2024 15:18:02.974 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 15:18:02.974 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+05-Mar-2024 15:18:02.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml]
+05-Mar-2024 15:18:03.948 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2024 15:18:04.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml] has finished in [1,022] ms
+05-Mar-2024 15:18:04.020 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:18:04.068 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1148] milliseconds
+05-Mar-2024 15:18:55.906 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.1.7.Final
+05-Mar-2024 15:18:56.988 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+05-Mar-2024 15:18:57.026 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.microsoft.sqlserver.jdbc.SQLServerDriver
+05-Mar-2024 15:18:57.026 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:sqlserver://localhost:1433;database=jsp_01;encrypt=true;trustServerCertificate=true]
+05-Mar-2024 15:18:57.026 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=sa}
+05-Mar-2024 15:18:57.026 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Mar-2024 15:18:57.035 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+05-Mar-2024 15:18:57.272 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+05-Mar-2024 15:18:57.961 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.0.Final
+05-Mar-2024 15:18:59.403 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2eddca08] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+05-Mar-2024 15:19:20.410 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:20.416 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 15:19:20.421 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ems] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Mar-2024 15:19:20.422 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ems] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:840)
+05-Mar-2024 15:19:20.427 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:20.454 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:23.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+05-Mar-2024 15:19:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+05-Mar-2024 15:19:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+05-Mar-2024 15:19:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Mar-2024 15:19:23.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thinh\.jdks\corretto-17.0.10
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:19:23.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:19:23.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Mar-2024 15:19:23.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\dev\java\spring_boot\practice_class\ems\ems\temp
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\dev\java\spring_boot\practice_class\ems\ems\conf\logging.properties
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 15:19:23.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=52098:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin
+05-Mar-2024 15:19:23.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Mar-2024 15:19:23.598 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\thinh\.jdks\corretto-17.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Users\thinh\AppData\Local\Microsoft\WindowsApps;C:\Users\thinh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thinh\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\thinh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.6\bin;;.]
+05-Mar-2024 15:19:23.876 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:23.905 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [503] milliseconds
+05-Mar-2024 15:19:24.025 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 15:19:24.025 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+05-Mar-2024 15:19:24.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml]
+05-Mar-2024 15:19:25.198 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2024 15:19:25.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml] has finished in [1,241] ms
+05-Mar-2024 15:19:25.284 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:25.327 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1422] milliseconds
+05-Mar-2024 15:19:28.527 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.1.7.Final
+05-Mar-2024 15:19:29.476 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+05-Mar-2024 15:19:29.510 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.microsoft.sqlserver.jdbc.SQLServerDriver
+05-Mar-2024 15:19:29.511 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:sqlserver://localhost:1433;database=jsp_01;encrypt=true;trustServerCertificate=true]
+05-Mar-2024 15:19:29.511 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=sa}
+05-Mar-2024 15:19:29.511 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Mar-2024 15:19:29.517 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+05-Mar-2024 15:19:29.759 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+05-Mar-2024 15:19:30.394 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.0.Final
+05-Mar-2024 15:19:31.580 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@89ac20d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+05-Mar-2024 15:19:44.564 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:44.571 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 15:19:44.575 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ems] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Mar-2024 15:19:44.576 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ems] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:840)
+05-Mar-2024 15:19:44.582 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:44.593 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:48.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thinh\.jdks\corretto-17.0.10
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:19:48.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:19:48.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Mar-2024 15:19:48.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\dev\java\spring_boot\practice_class\apache-tomcat-10.1.19
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\dev\java\spring_boot\practice_class\ems\ems
+05-Mar-2024 15:19:48.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\dev\java\spring_boot\practice_class\ems\ems\temp
+05-Mar-2024 15:19:48.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\dev\java\spring_boot\practice_class\ems\ems\conf\logging.properties
+05-Mar-2024 15:19:48.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 15:19:48.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=52133:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin
+05-Mar-2024 15:19:48.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Mar-2024 15:19:48.740 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\thinh\.jdks\corretto-17.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Users\thinh\AppData\Local\Microsoft\WindowsApps;C:\Users\thinh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thinh\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\thinh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.6\bin;;.]
+05-Mar-2024 15:19:48.964 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:48.993 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [410] milliseconds
+05-Mar-2024 15:19:49.055 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 15:19:49.055 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+05-Mar-2024 15:19:49.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml]
+05-Mar-2024 15:19:50.065 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2024 15:19:50.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\dev\java\spring_boot\practice_class\ems\ems\conf\Catalina\localhost\ems.xml] has finished in [1,076] ms
+05-Mar-2024 15:19:50.154 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:19:50.203 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1208] milliseconds
+05-Mar-2024 15:19:53.044 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.1.7.Final
+05-Mar-2024 15:19:53.996 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+05-Mar-2024 15:19:54.028 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.microsoft.sqlserver.jdbc.SQLServerDriver
+05-Mar-2024 15:19:54.028 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:sqlserver://localhost:1433;database=jsp_01;encrypt=true;trustServerCertificate=true]
+05-Mar-2024 15:19:54.028 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=sa}
+05-Mar-2024 15:19:54.028 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Mar-2024 15:19:54.033 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+05-Mar-2024 15:19:54.253 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+05-Mar-2024 15:19:54.882 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.0.Final
+05-Mar-2024 15:19:56.024 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@89ac20d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+05-Mar-2024 15:22:49.971 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:22:49.980 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 15:22:49.985 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ems] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Mar-2024 15:22:49.985 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ems] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:840)
+05-Mar-2024 15:22:49.991 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2024 15:22:49.997 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
