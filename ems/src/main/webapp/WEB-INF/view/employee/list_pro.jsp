@@ -154,25 +154,36 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
 
-                        <% int activePage = (int) request.getAttribute("page"); %>
-                        <li class="page-item <%= activePage == 1 ? "d-none" : ""%> ">
-                            <a class="page-link"  href="${pageContext.request.contextPath}/employee?page=<%= activePage - 1%>">Previous</a>
+                        <% int activePage = (int) request.getAttribute("page");
+                            if (activePage > 1) {
+                        %>
+                        <li class="page-item <%= activePage == 1 ? "d-none" : ""%>">
+                            <a class="page-link"
+                               href="${pageContext.request.contextPath}/employee?page=<%= activePage - 1%>">Previous</a>
                         </li>
                         <%
+                            }
                             long totalPage = (long) request.getAttribute("totalPage");
 
                             for (int i = 0; i < totalPage; i++) { %>
-                        <li class="page-item <%= activePage == (i +1 )  ? "active" : ""%>">
-                            <a class="page-link <%= activePage == (i +1 )  ? "disabled" : ""%>"
-                               href="${pageContext.request.contextPath}/employee?page=<%=i + 1%>"><%=i + 1%>
+                        <li class="page-item <%= activePage == (i + 1)  ? "active" : ""%>">
+                            <%--                            <a class="page-link <%= activePage == (i + 1)  ? "disabled" : ""%>"--%>
+                            <%--                               href="${pageContext.request.contextPath}/employee?page=<%=i + 1%>&size=3"><%=i + 1%>--%>
+                            <%--                            </a>--%>
+                            <a class="page-link"
+                               href="<%=activePage == (i + 1) ? "javascript:void(0)" : request.getContextPath() + "/employee?page=" + (i + 1) %>">
+                                <%=i + 1%>
                             </a>
                         </li>
-                        <% } %>
-                        <li class="page-item">
+                        <% }
+                            if (activePage < totalPage) {
+                        %>
+                        <li>
                             <a class="page-link <%= activePage == totalPage ? "d-none" : ""%> "
                                href="${pageContext.request.contextPath}/employee?page=<%= activePage +1%>">
                                 Next</a>
                         </li>
+                        <% } %>
                     </ul>
                 </nav>
             </div>

@@ -54,7 +54,7 @@ public class EmployeeController extends HttpServlet {
         req.setAttribute("employees", employeeList);
         req.setAttribute("totalPage", totalPage);
         req.setAttribute("page", page);
-        req.getRequestDispatcher("/WEB-INF/employee/list_pro.jsp")
+        req.getRequestDispatcher("/WEB-INF/view/employee/list_pro.jsp")
                 .forward(req, resp);
 
     }
