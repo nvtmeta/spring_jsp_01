@@ -67,8 +67,15 @@ public class EmployeeController extends HttpServlet {
         } else if (uri.endsWith("/delete")) {
             req.getRequestDispatcher("/WEB-INF/view/employee/delete.jsp")
                     .forward(req, resp);
-        } else if (uri.endsWith("/detail")) {
-            System.out.println("req = " + req);
+
+        } else if
+        (uri.endsWith("/detail")) {
+
+            String id = req.getParameter("id");
+            Employee employee = employeeService.findById(Long.parseLong(id));
+            System.out.println("employee = " + employee);
+            req.setAttribute("employee", employee);
+
             req.getRequestDispatcher("/WEB-INF/view/employee/detail.jsp")
                     .forward(req, resp);
         }

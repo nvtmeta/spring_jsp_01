@@ -107,8 +107,8 @@
                         <td><%=employee.getLevel()%>
                         </td>
                         <td>
-                            <a href="${pageContext.request.contextPath}/detail?id=<%=employee.getId()%>" class="btn btn-sm btn-primary" data-bs-toggle="modal"
-                               data-bs-target="#employee_details">Details</a>
+                            <a href="${pageContext.request.contextPath}/employee/detail?id=<%=employee.getId()%>" class="btn btn-sm btn-primary"
+                              >Details</a>
                             <a href="${pageContext.request.contextPath}/employee/<%=employee.getId()%>" class="btn btn-sm btn-warning" data-bs-toggle="modal"
                                data-bs-target="#employee_edit">Edit</a>
                             <a href="#>" class="btn btn-sm btn-danger" data-bs-toggle="modal"

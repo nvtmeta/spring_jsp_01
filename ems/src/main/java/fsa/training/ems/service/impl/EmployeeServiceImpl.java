@@ -49,6 +49,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Employee findById(long id) {
-        return null;
+        return employeeDao.getById(id);
     }
 }

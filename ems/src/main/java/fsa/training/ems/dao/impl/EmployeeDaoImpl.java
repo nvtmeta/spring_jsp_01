@@ -66,7 +66,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public Employee getById(long id) {
-        return null;
+        try(Session session = HibernateUtils.getSession()) {
+            return session.get(Employee.class, id);
+        }
     }
 
 
