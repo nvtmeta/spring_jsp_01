@@ -107,11 +107,11 @@
                         <td><%=employee.getLevel()%>
                         </td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                            <a href="${pageContext.request.contextPath}/detail?id=<%=employee.getId()%>" class="btn btn-sm btn-primary" data-bs-toggle="modal"
                                data-bs-target="#employee_details">Details</a>
-                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="modal"
+                            <a href="${pageContext.request.contextPath}/employee/<%=employee.getId()%>" class="btn btn-sm btn-warning" data-bs-toggle="modal"
                                data-bs-target="#employee_edit">Edit</a>
-                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                            <a href="#>" class="btn btn-sm btn-danger" data-bs-toggle="modal"
                                data-bs-target="#employee_delete">Delete</a>
                         </td>
                     </tr>
@@ -135,7 +135,7 @@
                         %>
                         <li class="page-item <%= activePage == 1 ? "d-none" : ""%>">
                             <a class="page-link"
-                               href="${pageContext.request.contextPath}/employee?page=<%= activePage - 1%>">Previous</a>
+                               href="${pageContext.request.contextPath}/employee/list?page=<%= activePage - 1%>">Previous</a>
                         </li>
                         <%
                             }
@@ -147,7 +147,7 @@
                             <%--                               href="${pageContext.request.contextPath}/employee?page=<%=i + 1%>&size=3"><%=i + 1%>--%>
                             <%--                            </a>--%>
                             <a class="page-link"
-                               href="<%=activePage == (i + 1) ? "javascript:void(0)" : request.getContextPath() + "/employee?page=" + (i + 1) %>">
+                               href="<%=activePage == (i + 1) ? "javascript:void(0)" : request.getContextPath() + "/employee/list?page=" + (i + 1) %>">
                                 <%=i + 1%>
                             </a>
                         </li>
@@ -156,7 +156,7 @@
                         %>
                         <li>
                             <a class="page-link <%= activePage == totalPage ? "d-none" : ""%> "
-                               href="${pageContext.request.contextPath}/employee?page=<%= activePage +1%>">
+                               href="${pageContext.request.contextPath}/employee/list?page=<%= activePage +1%>">
                                 Next</a>
                         </li>
                         <% } %>

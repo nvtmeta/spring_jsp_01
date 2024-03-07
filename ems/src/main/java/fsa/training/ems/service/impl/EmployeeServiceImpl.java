@@ -33,6 +33,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Employee create(Employee employee) {
+        System.out.println("employeeService = " + employee);
         return employeeDao.create(employee);
     }
 

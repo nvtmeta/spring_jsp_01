@@ -27,12 +27,6 @@ public class EmployeeAddController extends HttpServlet {
         String dateOfBirth = req.getParameter("dob");
         String level = req.getParameter("level");
         String salary = req.getParameter("salary");
-        System.out.println("name = " + name);
-        System.out.println("email = " + email);
-        System.out.println("dateOfBirth = " + dateOfBirth);
-        System.out.println("level = " + level);
-        System.out.println("salary = " + salary);
-        System.out.println("req.getContextPath() = " + req.getContextPath());
 
         Employee employee = new Employee();
         employee.setName(name);
@@ -40,7 +34,6 @@ public class EmployeeAddController extends HttpServlet {
         employee.setDateOfBirth(LocalDate.parse(dateOfBirth));
         employee.setLevel(EmployeeLevel.valueOf(level));
         employee.setSalary(new BigDecimal(salary));
-
 
         System.out.println("employee = " + employee);
 

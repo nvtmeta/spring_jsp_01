@@ -7,6 +7,7 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.List;
 
@@ -42,10 +43,12 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public Employee create(Employee employee) {
+        System.out.println("employeeDao = " + employee);
+
         try (Session session = HibernateUtils.getSession()) {
-            CriteriaBuilder builder = session.getCriteriaBuilder();
-            CriteriaQuery<Long> query = builder.createQuery(Long.class);
+            Transaction transaction = session.beginTransaction();
             session.persist(employee);
+            transaction.commit();
             return employee;
         }
 
