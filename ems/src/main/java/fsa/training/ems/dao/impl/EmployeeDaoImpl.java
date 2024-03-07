@@ -29,7 +29,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public long getTotalItem() {
-        try(Session session = HibernateUtils.getSession()) {
+        try (Session session = HibernateUtils.getSession()) {
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<Long> query = builder.createQuery(Long.class);
             Root<Employee> root = query.from(Employee.class);
@@ -39,4 +39,32 @@ public class EmployeeDaoImpl implements EmployeeDao {
             return session.createQuery(query).getSingleResult();
         }
     }
+
+    @Override
+    public Employee create(Employee employee) {
+        try (Session session = HibernateUtils.getSession()) {
+            CriteriaBuilder builder = session.getCriteriaBuilder();
+            CriteriaQuery<Long> query = builder.createQuery(Long.class);
+            session.persist(employee);
+            return employee;
+        }
+
+    }
+
+    @Override
+    public Employee update(Employee employee) {
+        return null;
+    }
+
+    @Override
+    public void delete(long id) {
+
+    }
+
+    @Override
+    public Employee getById(long id) {
+        return null;
+    }
+
+
 }

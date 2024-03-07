@@ -14,4 +14,12 @@ public interface EmployeeDao {
     public List<Employee> getAll(int page,int size);
 
     long getTotalItem();
+
+    Employee create(Employee employee);
+
+    Employee update(Employee employee);
+
+    void delete(long id);
+
+    Employee getById(long id);
 }

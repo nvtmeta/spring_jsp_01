@@ -30,4 +30,24 @@ public class EmployeeServiceImpl implements EmployeeService {
     public long getTotalItem() {
         return employeeDao.getTotalItem();
     }
+
+    @Override
+    public Employee create(Employee employee) {
+        return employeeDao.create(employee);
+    }
+
+    @Override
+    public Employee update(Employee employee) {
+        return null;
+    }
+
+    @Override
+    public void delete(long id) {
+
+    }
+
+    @Override
+    public Employee findById(long id) {
+        return null;
+    }
 }

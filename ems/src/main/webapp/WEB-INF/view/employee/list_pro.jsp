@@ -118,39 +118,15 @@
                     <%
                         }
                     %>
+
+                    </td>
                 </table>
-                <%--                <%--%>
-                <%--                    int size = 3; // Default size--%>
-                <%--                    int currentPage = 1; // Default page--%>
-                <%--                    Long totalPage = (Long) request.getAttribute("totalPage");--%>
+                <div class="my-3">
+                        <a class="btn my-2 btn-primary" href="${pageContext.request.contextPath}/employee/add">
+                            Thêm mới
+                        </a>
+                </div>
 
-                <%--                    String sizeStr = request.getParameter("size");--%>
-                <%--                    String pageStr = request.getParameter("page");--%>
-
-                <%--                    if (sizeStr != null && !sizeStr.isEmpty()) {--%>
-                <%--                        size = Integer.parseInt(sizeStr);--%>
-                <%--                    }--%>
-                <%--                    if (pageStr != null && !pageStr.isEmpty()) {--%>
-                <%--                        currentPage = Integer.parseInt(pageStr);--%>
-                <%--                    }--%>
-
-                <%--                %>--%>
-
-                <%--                <nav aria-label="Page navigation example">--%>
-                <%--                    <ul class="pagination">--%>
-                <%--                        <li class="page-item <%= currentPage <= 1 ? "disabled" : "" %>">--%>
-                <%--                            <a class="page-link" href="#" onclick="updatePagination(<%= Math.max(1, currentPage - 1) %>, <%= size %>)">Previous</a>--%>
-                <%--                        </li>--%>
-                <%--                        <% for (int i = 1; i <= totalPage; i++) { %>--%>
-                <%--                        <li onclick="updatePagination(<%= i %>, <%= size %>)" class="page-item <%= i == currentPage ? "active" : "" %>">--%>
-                <%--                            <a class="page-link" href="/employees?page=<%=i + 1%>"><%=i%></a>--%>
-                <%--                        </li>--%>
-                <%--                        <% } %>--%>
-                <%--                        <li class="page-item <%= currentPage >= totalPage ? "disabled" : "" %>">--%>
-                <%--                            <a class="page-link" href="#" onclick="updatePagination(<%= Math.min(totalPage, currentPage + 1) %>, <%= size %>)">Next</a>--%>
-                <%--                        </li>--%>
-                <%--                    </ul>--%>
-                <%--                </nav>--%>
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
 
@@ -195,21 +171,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
-    // function updatePagination(page, size) {
-    //     try {
-    //         console.log("page: " + page + ", size: " + size);
-    //         let url = window.location.href;
-    //         let params = new URLSearchParams(window.location.search);
-    //         params.set('page', page);
-    //         params.set('size', size);
-    //
-    //         console.log("params" + params);
-    //         window.location.href = url.split('?')[0] + '?' + params.toString();
-    //         return url.split('?')[0] + '?' + params.toString();
-    //     } catch (error) {
-    //         console.error("Error redirecting page:", error);
-    //     }
-    // }
+
 </script>
 </body>
 </html>
