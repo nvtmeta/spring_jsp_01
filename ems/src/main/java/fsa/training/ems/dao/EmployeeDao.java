@@ -17,7 +17,7 @@ public interface EmployeeDao {
 
     Employee create(Employee employee);
 
-    Employee update(Employee employee);
+    void update(Employee employee);
 
     void delete(long id);
 

@@ -55,18 +55,34 @@ public class EmployeeDaoImpl implements EmployeeDao {
     }
 
     @Override
-    public Employee update(Employee employee) {
-        return null;
+    public void update(Employee employee) {
+        try (Session session = HibernateUtils.getSession()) {
+            Transaction transaction = session.beginTransaction();
+            session.update(employee);
+            transaction.commit();
+        }
     }
 
     @Override
     public void delete(long id) {
+        try (Session session = HibernateUtils.getSession()) {
+            Employee employee = session.find(Employee.class, id);
 
+            if (employee == null) {
+                throw new IllegalArgumentException("Can not find employee with id: " + id);
+            }
+
+            Transaction transaction = session.beginTransaction();
+            employee.setDeleted(true);
+            session.merge(employee);
+            transaction.commit();
+
+        }
     }
 
     @Override
     public Employee getById(long id) {
-        try(Session session = HibernateUtils.getSession()) {
+        try (Session session = HibernateUtils.getSession()) {
             return session.get(Employee.class, id);
         }
     }

@@ -15,7 +15,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public List<EmployeeListDto> getAll(int page, int size) {
-        List<Employee> employeeList = employeeDao.getAll(page,size);
+        List<Employee> employeeList = employeeDao.getAll(page, size);
 
         List<EmployeeListDto> employeesListDTOS = employeeList.stream().map(e -> {
                     return new EmployeeListDto(
@@ -38,13 +38,18 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public Employee update(Employee employee) {
-        return null;
+    public void update(Employee employee) {
+         employeeDao.update(employee);
     }
 
     @Override
-    public void delete(long id) {
-
+    public boolean delete(long id) {
+        try {
+            employeeDao.delete(id);
+            return true;
+        } catch (IllegalArgumentException e) {
+            return false;
+        }
     }
 
     @Override

@@ -35,6 +35,6 @@ public class Employee {
     @Enumerated(EnumType.STRING)
     private EmployeeLevel level;
 
-    private BigDecimal  salary;
+    private BigDecimal salary;
 
 }

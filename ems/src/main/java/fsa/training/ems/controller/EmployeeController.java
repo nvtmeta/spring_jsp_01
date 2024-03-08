@@ -28,6 +28,13 @@ public class EmployeeController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+//        check authentication
+//        String account = (String) req.getSession().getAttribute("account");
+//        if (account == null) {
+//            resp.sendRedirect(req.getContextPath() + "/login");
+//            return;
+//        }
+
         String uri = req.getRequestURI();
 
 //        FIXME: read from database
@@ -62,8 +69,25 @@ public class EmployeeController extends HttpServlet {
             req.getRequestDispatcher("/WEB-INF/view/employee/add.jsp")
                     .forward(req, resp);
         } else if (uri.endsWith("/edit")) {
+            String id = req.getParameter("id");
+            Employee employee = employeeService.findById(Long.parseLong(id));
+            System.out.println("employee = " + employee);
+            req.setAttribute("employee", employee);
+
             req.getRequestDispatcher("/WEB-INF/view/employee/edit.jsp")
                     .forward(req, resp);
+        } else if (uri.endsWith("/editSubmit")) {
+
+            String id = req.getParameter("id");
+            Employee employee = employeeService.findById(Long.parseLong(id));
+            employee.setName(req.getParameter("name"));
+            employee.setEmail(req.getParameter("email"));
+            employee.setDateOfBirth(LocalDate.parse(req.getParameter("dob")));
+            employee.setLevel(EmployeeLevel.valueOf(req.getParameter("level")));
+            employee.setSalary(new BigDecimal(req.getParameter("salary")));
+            employeeService.update(employee);
+            resp.sendRedirect(req.getContextPath() + "/employee/list");
+
         } else if (uri.endsWith("/delete")) {
             req.getRequestDispatcher("/WEB-INF/view/employee/delete.jsp")
                     .forward(req, resp);
@@ -108,7 +132,11 @@ public class EmployeeController extends HttpServlet {
 
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPut(req, resp);
+        String id = req.getParameter("id");
+        Employee employee = employeeService.findById(Long.parseLong(id));
+        req.setAttribute("employee", employee);
+        System.out.println("employee = " + employee);
+        employeeService.update(employee);
     }
 
     @Override

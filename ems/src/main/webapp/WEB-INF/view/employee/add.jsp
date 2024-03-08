@@ -11,10 +11,11 @@
 </head>
 
 <body>
-<h1 class="text-center mt-2">Employee Add</h1>
-<br />
+<br/>
 
+<jsp:include page="../fragment/Header.jsp"/>
 <form action="${pageContext.request.contextPath}/employee" method="post" class="p-2 m-2 w-25 mx-auto">
+    <h1 class="text-center mt-2">Employee Add</h1>
 
     <!-- Textarea -->
     <div class="form-group">
@@ -45,7 +46,7 @@
             <option value="EXPERT">EXPERT</option>
         </select>
     </div>
-        <input type="submit" value="Submit" class="btn btn-primary mt-3">
+    <input type="submit" value="Submit" class="btn btn-primary mt-3">
 </form>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

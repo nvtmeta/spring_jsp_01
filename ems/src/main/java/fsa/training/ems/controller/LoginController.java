@@ -30,7 +30,11 @@ public class LoginController extends HttpServlet {
         if ("admin".equalsIgnoreCase(account) && "admin".equalsIgnoreCase(password)) {
 //            req.getRequestDispatcher("/WEB-INF/view/auth/login.jsp")
 //                    .forward(req, resp);
-            resp.sendRedirect(req.getContextPath() + "/employee");
+            req.getSession().setAttribute("account", account);
+
+
+//            FIXME : redirect to before login
+            resp.sendRedirect(req.getContextPath() + "/employee/list");
     //instead call direct view, we call EmployeeController
 
         } else {

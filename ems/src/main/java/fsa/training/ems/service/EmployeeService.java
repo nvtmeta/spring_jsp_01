@@ -13,9 +13,9 @@ public interface EmployeeService {
 
     public Employee create(Employee employee);
 
-    public Employee update(Employee employee);
+    public void update(Employee employee);
 
-    public void delete(long id);
+    public boolean delete(long id);
 
     public Employee findById(long id);
 }
